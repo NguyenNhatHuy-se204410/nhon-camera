@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,29 +27,43 @@
         <section>
             <h2>Camera Gallery</h2>
 
+            <div id="image">
+                Hover over an image below to display here.
+            </div>
+
             <div class="grid">
                 <figure>
-                    <img src="IMG_4013.PNG" alt="Nhon Camera logo">
+                    <img src="IMG_4013.PNG" alt="Nhon Camera logo"
+                         onmouseover="upDate(this)"
+                         onmouseout="unDo()">
                     <figcaption>Nhon Camera logo</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="IMG_4818.jpg" alt="Action cameras and accessories">
+                    <img src="IMG_4818.jpg" alt="Action cameras and accessories"
+                         onmouseover="upDate(this)"
+                         onmouseout="unDo()">
                     <figcaption>Action cameras and accessories</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="IMG_4874.jpg" alt="Nhon Camera workspace">
+                    <img src="IMG_4874.jpg" alt="Nhon Camera workspace"
+                         onmouseover="upDate(this)"
+                         onmouseout="unDo()">
                     <figcaption>Nhon Camera workspace</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="IMG_4933.jpg" alt="Insta360 Ace Pro 2 camera">
+                    <img src="IMG_4933.jpg" alt="Insta360 Ace Pro 2 camera"
+                         onmouseover="upDate(this)"
+                         onmouseout="unDo()">
                     <figcaption>Insta360 Ace Pro 2 camera</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="IMG_5051.jpg" alt="DJI Pocket 3 creator combo in carrying case">
+                    <img src="IMG_5051.jpg" alt="DJI Pocket 3 creator combo in carrying case"
+                         onmouseover="upDate(this)"
+                         onmouseout="unDo()">
                     <figcaption>DJI Pocket 3 Creator Combo</figcaption>
                 </figure>
             </div>
@@ -58,6 +73,8 @@
     <footer>
         <p>Created by Nguyen Nhat Huy</p>
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
