@@ -1,3 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #111111;
+    padding: 20px;
+}
+
+main {
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+}
+
+footer {
+    background-color: #111111;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: white;
+}
+
+p {
+    line-height: 1.6;
+}
 .skip-link {
     position: absolute;
     left: -999px;
